@@ -14,3 +14,15 @@ input_method = HiddenInputField
 [project]
 title = PixelLinePlatformer
 
+[graphics]
+default_texture_min_filter = nearest
+default_texture_mag_filter = nearest
+
+[physics]
+gravity_y = -1000.0
+scale = 0.1
+debug = 0
+
+[input]
+use_accelerometer = 0
+
